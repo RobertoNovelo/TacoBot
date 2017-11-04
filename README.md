@@ -28,7 +28,7 @@ Read ```./serverless.yml``` for more details.
 
 * Configure your credentials:
 
-```aws config```
+```aws configure```
 
 * Create a role and configure it on your current environment on the ```PROVIDER_ROLE_ARN``` key and run
 
