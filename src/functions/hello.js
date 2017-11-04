@@ -11,5 +11,6 @@ export async function world(event, context, callback) {
   //   bodyParam2,
   //   bodyParam3,
   // } = JSON.parse(event.body);
+  console.log(JSON.stringify(event))
   return callback(null, success('world'));
 }
